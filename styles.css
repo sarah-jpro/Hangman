@@ -1,0 +1,231 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  * {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      box-sizing: border-box;
+      
+      
+  }
+  
+  
+  
+  /*Header and Title*/ 
+  
+  #header{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 70px;
+      background-image: url("thumb-1920-80110.jpg");
+      
+  }
+  #header #titre{
+      color: red;
+      padding-left: 200px;
+      /*transition: all ease 0.2s;*/
+      text-shadow: 0 1px 0 #ddd, 0 2px 0 #ddd, 0 3px 0 #ddd, 0 4px 0 #ddd, 0 5px 0 #ddd, 0 6px 0 #ddd, 0 7px 0 #ddd, 0 8px 0 #ddd, 0 9px 0 #ddd, 0 10px 0 #ddd, 0 11px 0 #ddd, 0 12px 0 #ddd, 0 20px 30px rgba(0, 0, 0, 0.7); 
+      font-size: 55px;
+  }
+  
+  #header #titre:hover{
+      color: white;
+      transform: scale(1.08);
+  }
+  
+  /*#affpseudo{
+      color: white;
+      font-size: 30px;
+      padding-right: 100px;
+  }
+  
+  
+  /* nav */
+  
+  #nav #connexion{
+      width: 100%;
+      position: absolute;
+      bottom: 70px;;
+      top: 70px;
+      background-color: #4d70a3;
+      display: flex;    
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      z-index: 200;
+      
+  }
+  
+ #nav #connexion  input[type="text"]{
+      height: 50px;
+      width: 200px;
+      text-align: center;
+      display: block;
+      background-color: transparent;
+      color: white;
+      border-radius: 24px;
+      border: 2px solid white;
+      transition: all ease 0.2s;
+      margin-bottom: 25px;
+     
+      
+  }
+  
+ #nav #connexion input[type="text"]:hover{
+      width: 300px;
+      border: 2px solid #051323;
+  }
+  
+  #nav #connexion  input[type="button"]{
+      height: 40px;
+      width: 150px;
+      text-align: center;
+      
+      background-color: #051323;
+      color: white;
+      border-radius: 20px;
+      border: none;
+      transition: all ease 0.2s;
+      margin-bottom: 25px;
+  }
+  /*JEU*/ 
+  
+  #pendu{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url("thumb-1920-80110.jpg");
+      width: 500px;
+      height: 500px;
+      margin-left: 50px;
+      position: relative;
+  }
+  
+  #pendu span{
+      color: white;
+      font-size: 30px;
+      text-transform: uppercase;
+      font-weight: bold;
+      transition: all ease 0.2s;
+      
+      
+  }
+  
+  #pendu span:hover{
+      transform: scale(1.08);
+  }
+  
+  .pendu{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 500px;
+      height: 500px;
+      display: none;
+  }
+  
+  
+  
+  #nav #jeu{
+      width: 100%;
+      position: absolute;
+      bottom: 70px;
+      top: 70px;
+      background-image: url("thumb-1920-80110.jpg");
+      text-align: center;
+      color: white; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  #clavier{
+      margin-top: 30px;
+      
+  }
+  
+  #text_cache{
+      display: none;
+  }
+  
+  .bouton_clavier{
+      color: #051323;
+      background-color: white;
+      border-radius: 5px;
+      margin: 2px;
+      width: 50px;
+      height: 50px;
+      border: none;
+      border: 2px solid #051323;
+      cursor: pointer;
+  }
+  /*#buttonspace{
+      width: 500px;
+  }*/
+  
+  .champ_cache{
+      display: inline;
+  }
+  .champ_devine{
+      display: inline;
+  }
+  
+  .champclass{
+      width: 30px;
+      height:30px;
+      margin: 10px;
+      display: none;
+  }
+  
+  .champclassdev{
+      width: 60px;
+      height: 60px;
+      margin: 10px;
+      text-align: center;
+      color: #051323;
+      text-transform: uppercase;
+      font-size: 30px;
+      font-weight: bold;
+      border: 3px solid #051323;
+      border-radius: 5px;
+  }
+  
+  /*footer*/
+  #footer{
+      position: absolute;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      height: 70px;
+      bottom: 0;
+      background-image: url("thumb-1920-80110.jpg");
+     
+  }
+  #footer span{
+      color: white;
+      font-size: 30px;
+      text-transform: uppercase;
+      font-weight: bolder;
+      
+  }
+  
+  #footer #bouton_recommencer{
+      height: 50px;
+      width: 200px;
+      text-align: center;
+      
+      background-color: #f01e17;
+      color: white;
+      border-radius: 20px;
+      border: none;
+      transition: all ease 0.2s;
+      
+      text-transform: uppercase;
+      cursor: pointer;
+  }
+  
