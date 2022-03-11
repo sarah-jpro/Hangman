@@ -5,13 +5,9 @@ html, body {
   
   * {
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      box-sizing: border-box;
-      
-      
+      box-sizing: border-box;  
   }
-  
-  
-  
+
   /*Header and Title*/ 
   
   #header{
@@ -20,14 +16,13 @@ html, body {
       align-items: center;
       justify-content: space-between;
       height: 70px;
-      background-image: url("thumb-1920-80110.jpg");
+      background-image: url("/Img/thumb-1920-80110.jpg");
       
   }
   #header #titre{
-      color: red;
+      color: #f01e17;
       padding-left: 200px;
-      /*transition: all ease 0.2s;*/
-      text-shadow: 0 1px 0 #ddd, 0 2px 0 #ddd, 0 3px 0 #ddd, 0 4px 0 #ddd, 0 5px 0 #ddd, 0 6px 0 #ddd, 0 7px 0 #ddd, 0 8px 0 #ddd, 0 9px 0 #ddd, 0 10px 0 #ddd, 0 11px 0 #ddd, 0 12px 0 #ddd, 0 20px 30px rgba(0, 0, 0, 0.7); 
+      text-shadow: 0 1px 0 #255957, 0 2px 0 #255957, 0 3px 0 #255957, 0 4px 0 #255957, 0 5px 0 , 0 6px 0 #255957, 0 7px 0 #255957, 0 8px 0 #255957, 0 9px 0 #255957, 0 10px 0 #255957, 0 11px 0 #255957, 0 12px 0 #255957, 0 20px 30px rgba(0, 0, 0, 0.7); 
       font-size: 55px;
   }
   
@@ -35,14 +30,7 @@ html, body {
       color: white;
       transform: scale(1.08);
   }
-  
-  /*#affpseudo{
-      color: white;
-      font-size: 30px;
-      padding-right: 100px;
-  }
-  
-  
+
   /* nav */
   
   #nav #connexion{
@@ -98,11 +86,12 @@ html, body {
       display: flex;
       align-items: center;
       justify-content: center;
-      background-image: url("thumb-1920-80110.jpg");
+      background-image: url("/Img/thumb-1920-80110.jpg");
       width: 500px;
       height: 500px;
       margin-left: 50px;
       position: relative;
+      border: 3px solid #255957;
   }
   
   #pendu span{
@@ -135,7 +124,7 @@ html, body {
       position: absolute;
       bottom: 70px;
       top: 70px;
-      background-image: url("thumb-1920-80110.jpg");
+      background-image: url("/Img/thumb-1920-80110.jpg");
       text-align: center;
       color: white; 
       display: flex;
@@ -160,27 +149,21 @@ html, body {
       width: 50px;
       height: 50px;
       border: none;
-      border: 2px solid #051323;
+      border: 2px solid #255957;
       cursor: pointer;
   }
-  /*#buttonspace{
-      width: 500px;
-  }*/
-  
   .champ_cache{
       display: inline;
   }
   .champ_devine{
       display: inline;
   }
-  
   .champclass{
       width: 30px;
       height:30px;
       margin: 10px;
       display: none;
   }
-  
   .champclassdev{
       width: 60px;
       height: 60px;
@@ -190,7 +173,7 @@ html, body {
       text-transform: uppercase;
       font-size: 30px;
       font-weight: bold;
-      border: 3px solid #051323;
+      border: 3px solid #255957;
       border-radius: 5px;
   }
   
@@ -203,7 +186,7 @@ html, body {
       width: 100%;
       height: 70px;
       bottom: 0;
-      background-image: url("thumb-1920-80110.jpg");
+      background-image: url("/Img/thumb-1920-80110.jpg");
      
   }
   #footer span{
