@@ -11,7 +11,7 @@
 - Challenge: solo
 - Duration : 3 days
 - Deadline : 11/03/2022
-- 
+
 ## The mission :smiling_imp:
 
 Make a website version of the hangman word game. To do so try to think the structure, the "backend" (functionality) and the frontend (design) of the project before  start coding.
