@@ -16,7 +16,7 @@ html, body {
       align-items: center;
       justify-content: space-between;
       height: 70px;
-      background-image: url("/Img/thumb-1920-80110.jpg");
+      background-image: url("Img/thumb-1920-80110.jpg");
       
   }
   #header #titre{
@@ -86,7 +86,7 @@ html, body {
       display: flex;
       align-items: center;
       justify-content: center;
-      background-image: url("/Img/thumb-1920-80110.jpg");
+      background-image: url("Img/thumb-1920-80110.jpg");
       width: 500px;
       height: 500px;
       margin-left: 50px;
@@ -124,7 +124,7 @@ html, body {
       position: absolute;
       bottom: 70px;
       top: 70px;
-      background-image: url("/Img/thumb-1920-80110.jpg");
+      background-image: url("Img/thumb-1920-80110.jpg");
       text-align: center;
       color: white; 
       display: flex;
@@ -186,7 +186,7 @@ html, body {
       width: 100%;
       height: 70px;
       bottom: 0;
-      background-image: url("/Img/thumb-1920-80110.jpg");
+      background-image: url("Img/thumb-1920-80110.jpg");
      
   }
   #footer span{
